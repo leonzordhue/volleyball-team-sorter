@@ -14,10 +14,11 @@
 
 ### Configurações do Vercel:
 - **Framework Preset:** `Other`
-- **Root Directory:** (deixe vazio)
-- **Build Command:** `node build-vercel.js`
+- **Root Directory:** (deixe vazio)  
+- **Build Command:** `npm run build`
 - **Output Directory:** `dist/public`
 - **Install Command:** `npm install`
+- **Functions:** (deixe vazio - Vercel detecta automaticamente)
 
 ### Environment Variables:
 - `DATABASE_URL`: sua connection string do Neon
